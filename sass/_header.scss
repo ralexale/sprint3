@@ -1,0 +1,147 @@
+@use 'mixins';
+@use 'variables';
+
+.header_container {
+  width: 100%;
+  height: 800px;
+  .nav_container {
+    .topMenu {
+      color: variables.$whitecolor;
+      display: flex;
+      height: 54px;
+      background-color: variables.$colorblue;
+      justify-content: space-between;
+      align-items: center;
+
+      .info {
+        display: flex;
+        width: 650px;
+        justify-content: space-around;
+      }
+      .login {
+        height: 54px;
+        width: 180px;
+        border: none;
+        background-color: variables.$colorblue;
+        color: variables.$whitecolor;
+        font-size: 16px;
+        font-weight: 500;
+      }
+    }
+
+    .mainMenu {
+      display: flex;
+      height: 83px;
+      width: 100%;
+
+      align-items: center;
+      justify-content: space-between;
+
+      .logoDiv {
+        border-right: 1px solid variables.$bordeCasaRoyal;
+        width: 250px;
+        height: 83px;
+        display: flex;
+        align-items: center;
+
+        padding-left: 20px;
+        .logo {
+          margin: 10px;
+        }
+
+        .casaRoyal {
+          color: variables.$fontcolor1;
+          font-size: 28px;
+        }
+        .casa {
+          font-weight: 100;
+        }
+      }
+
+      .navBar {
+        width: 700px;
+        height: auto;
+        margin-right: 300px;
+        .navLinks {
+          li {
+            font-size: 18px;
+            color: variables.$fontcolor1;
+            display: inline-block;
+            list-style: none;
+            padding: 5px 10px;
+            font-weight: 600;
+            font-family: variables.$fontfamily;
+          }
+          .hmp {
+            color: variables.$colorblue;
+          }
+        }
+      }
+
+      .submitBtn {
+        color: variables.$whitecolor;
+        background-color: variables.$orangeColor;
+        justify-content: end;
+        height: 83px;
+        width: 200px;
+        border: none;
+        font-size: 16px;
+      }
+    }
+  }
+  .hero_container {
+    padding: 0.1px;
+    height: 663px;
+    width: 100%;
+    background: {
+      image: url(../img/hero-bg-image.png);
+      attachment: fixed;
+      repeat: no-repeat;
+      size: cover;
+    }
+
+    .mainText {
+      padding: 20px;
+      color: variables.$whitecolor;
+      width: 800px;
+      height: 100px;
+      margin: 160px auto;
+
+      h2 {
+        font-weight: 100;
+        font-size: 42px;
+      }
+      h3 {
+        font-weight: 100;
+        font-size: 18px;
+      }
+    }
+    .searchBg {
+      display: flex;
+      border: 0.1px;
+      height: 120px;
+      width: 800px;
+      margin: -100px auto;
+      background-color: white;
+      align-items: center;
+      border-radius: 5px;
+      padding: 10px;
+      .type {
+        @include mixins.bgSearchBbar(277px);
+      }
+      .status {
+        @include mixins.bgSearchBbar(190px);
+      }
+      .area {
+        @include mixins.bgSearchBbar(450px);
+      }
+      .find {
+        @include mixins.bgSearchBbar(350px, variables.$colorblue);
+        border: none;
+        padding: 5px;
+        font-size: 18px;
+        color: variables.$whitecolor;
+      }
+    }
+  }
+}

@@ -1,0 +1,84 @@
+{
+  "properties": [
+    {
+      "id": 1,
+      "type": "house",
+      "status": "for sale",
+      "favorite": "../img/Favorite.svg",
+      "compare": "../img/Compare.svg",
+      "featured": "../img/rayoIcon.svg",
+      "img": "../img/property1.png ",
+      "price": "320,000.00",
+      "location": "Beverly Hills, CA",
+      "adress": "272 S Rexford Dr, Beverly Hills, CA 90212, USA",
+      "owner": {
+        "name": "Hellen Mattis",
+        "timeReleased": "4 months ago"
+      },
+      "area": "2400 Sq Ft",
+      "garage": "2",
+      "bathroom": "3",
+      "bedroom": "3"
+    },
+    {
+      "id": 2,
+      "type": "house",
+      "status": "for sale",
+      "favorite": "../img/Favorite.svg",
+      "compare": "../img/Compare.svg",
+      "featured": "../img/rayoIcon.svg",
+      "img": "../img/property2.png ",
+      "price": "100,000.00",
+      "location": "MIAMI",
+      "adress": "272 S Rexford Dr, Beverly Hills, CA 90212, USA",
+      "owner": {
+        "name": "Hellen Mattis",
+        "timeReleased": "10 months ago"
+      },
+      "area": "1220 Sq Ft",
+      "garage": "1",
+      "bathroom": "2",
+      "bedroom": "3"
+    },
+    {
+      "id": 3,
+      "type": "house",
+      "status": "for sale",
+      "favorite": "../img/Favorite.svg",
+      "compare": "../img/Compare.svg",
+      "featured": "../img/rayoIcon.svg",
+      "img": "../img/property3.png ",
+      "price": "320,000.00",
+      "location": "Beverly Hills, CA",
+      "adress": "272 S Rexford Dr, Beverly Hills, CA 90212, USA",
+      "owner": {
+        "name": "Hellen Mattis",
+        "timeReleased": "4 months ago"
+      },
+      "area": "2400 Sq Ft",
+      "garage": "2",
+      "bathroom": "3",
+      "bedroom": "3"
+    },
+    {
+      "id": 4,
+      "type": "house",
+      "status": "for sale",
+      "favorite": "../img/Favorite.svg",
+      "compare": "../img/Compare.svg",
+      "featured": "../img/rayoIcon.svg",
+      "img": "../img/property3.png ",
+      "price": "320,000.00",
+      "location": "Beverly Hills, CA",
+      "adress": "272 S Rexford Dr, Beverly Hills, CA 90212, USA",
+      "owner": {
+        "name": "Hellen Mattis",
+        "timeReleased": "4 months ago"
+      },
+      "area": "2400 Sq Ft",
+      "garage": "2",
+      "bathroom": "3",
+      "bedroom": "3"
+    }
+  ]
+}

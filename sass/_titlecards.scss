@@ -1,0 +1,33 @@
+@use 'variables';
+
+.container_properties {
+  padding: 0.1px;
+  width: 80%;
+  height: 1370px;
+  margin: 5px auto;
+  margin-top: 100px;
+
+  .title1 {
+    margin: 30px auto;
+    text-align: center;
+    width: 60%;
+    height: 110px;
+    .state {
+      color: variables.$fontcolor2;
+      font-weight: 100;
+      padding-bottom: 20px;
+    }
+    .fp {
+      justify-content: center;
+      display: flex;
+      font-size: 36px;
+      margin: 5px;
+      .featured {
+        font-weight: bold;
+      }
+      .Properties {
+        font-weight: 100;
+      }
+    }
+  }
+}
